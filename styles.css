@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,700&display=swap');
+
+:root {
+  --bg-cream: #F5F0E8;
+  --bg-dark: #1C2B27;
+  --text-dark: #1C2B27;
+  --text-light: #F5F0E8;
+  --text-muted-dark: #64748B;
+  --text-muted-light: #94A3B8;
+  --accent-emerald: #34D399;
+  --accent-[#1C2B27]: #1C2B27;
+  --card-cream: #EFE8DD;
+  --card-dark: #243732;
+  --border-cream: rgba(28, 43, 39, 0.08);
+  --border-dark: rgba(245, 240, 232, 0.12);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: var(--bg-cream);
+  color: var(--text-dark);
+  overflow-x: hidden;
+}
+
+/* Typography Helpers */
+.font-serif {
+  font-family: 'Playfair Display', Georgia, serif;
+}
+
+.font-sans {
+  font-family: 'Inter', sans-serif;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-cream);
+}
+::-webkit-scrollbar-thumb {
+  background: #D5CDC0;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--bg-dark);
+}
+
+/* Floating Navbar Pill Container */
+.nav-pill {
+  background: rgba(245, 240, 232, 0.82);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(28, 43, 39, 0.1);
+  box-shadow: 0 10px 30px -5px rgba(28, 43, 39, 0.08);
+}
+
+.dark-nav-pill {
+  background: rgba(28, 43, 39, 0.85);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(245, 240, 232, 0.12);
+  box-shadow: 0 10px 30px -5px rgba(0, 0, 0, 0.25);
+}
+
+/* Wisprflow Stacked Section Cards */
+.stacked-section {
+  position: relative;
+  border-top-left-radius: 2.5rem;
+  border-top-right-radius: 2.5rem;
+  box-shadow: 0 -12px 40px -10px rgba(0, 0, 0, 0.12);
+  transition: transform 0.3s ease;
+}
+
+@media (min-width: 768px) {
+  .stacked-section {
+    border-top-left-radius: 3.5rem;
+    border-top-right-radius: 3.5rem;
+  }
+}
+
+/* Scroll Fade & Slide Animations */
+.reveal {
+  opacity: 0;
+  transform: translateY(32px);
+  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: opacity, transform;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.delay-100 { transition-delay: 100ms; }
+.delay-200 { transition-delay: 200ms; }
+.delay-300 { transition-delay: 300ms; }
+.delay-400 { transition-delay: 400ms; }
+
+/* Gentle Floating Effect for Mockup */
+@keyframes wispr-float {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+.animate-wispr-float {
+  animation: wispr-float 6s ease-in-out infinite;
+}
+
+/* Pulse animation for active watcher indicator */
+@keyframes gentle-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.5; transform: scale(1.15); }
+}
+
+.pulse-dot {
+  animation: gentle-pulse 2.5s ease-in-out infinite;
+}
+
+/* Button styles */
+.btn-dark {
+  background-color: var(--bg-dark);
+  color: var(--text-light);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-dark:hover {
+  background-color: #2a3f39;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 25px -5px rgba(28, 43, 39, 0.3);
+}
+
+.btn-cream {
+  background-color: var(--bg-cream);
+  color: var(--text-dark);
+  transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.btn-cream:hover {
+  background-color: #ffffff;
+  transform: translateY(-1px);
+  box-shadow: 0 8px 25px -5px rgba(0, 0, 0, 0.25);
+}
+
+/* Scan Laser Animation */
+@keyframes laser-scan {
+  0% { top: 0%; opacity: 0; }
+  15% { opacity: 1; }
+  85% { opacity: 1; }
+  100% { top: 100%; opacity: 0; }
+}
+
+.laser-line {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #34D399, transparent);
+  box-shadow: 0 0 12px #34D399;
+  animation: laser-scan 2.6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
+}

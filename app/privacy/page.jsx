@@ -16,7 +16,7 @@ export default function PrivacyPage() {
           
           {/* Logo Left */}
           <Link href="/" class="flex items-center gap-2.5 group">
-            <img src="/assets/app_logo.png" alt="ShotTheName Logo" class="w-8 h-8 object-contain group-hover:scale-105 transition-transform" />
+            <img src="/assets/final_logo.png" alt="ShotTheName Logo" class="w-8 h-8 object-contain group-hover:scale-105 transition-transform" />
             <span class="font-sans font-bold text-base text-[#1C2B27] tracking-tight">ShotTheName</span>
           </Link>
 
@@ -180,7 +180,7 @@ export default function PrivacyPage() {
           
           {/* Logo + Copyright */}
           <Link href="/" class="flex items-center gap-2.5">
-            <img src="/assets/app_logo.png" alt="Logo" class="w-7 h-7 object-contain invert" />
+            <img src="/assets/final_logo.png" alt="Logo" class="w-7 h-7 object-contain invert" />
             <span class="text-sm font-bold text-[#F5F0E8]">ShotTheName</span>
             <span class="text-xs text-[#F5F0E8]/40 font-mono">© 2026</span>
           </Link>

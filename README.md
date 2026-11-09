@@ -110,5 +110,7 @@ Yes — open the Rename History tab and click Undo on any file.
 Questions? **[mx13eet@gmail.com](mailto:mx13eet@gmail.com)**
 
 <sub>Personal use only. Do not redistribute, resell, or reverse engineer.</sub>
-
+<p>
+  Make sure to give permission in settings->Privacy & Security->Scroll down->Allow application.
+</p>
 </div>

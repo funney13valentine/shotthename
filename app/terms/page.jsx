@@ -108,9 +108,7 @@ export default function TermsPage() {
               <h3 class="text-xl font-serif text-[#1C2B27] font-bold mb-3 flex items-center gap-2.5">
                 <span>3. Refund Policy</span>
               </h3>
-              <p class="text-sm text-[#1C2B27]/80 leading-relaxed">
-                We offer a 14-day refund window through our payment processor, Gumroad. If ShotTheName does not meet your expectations or fails to run properly on your Mac, please contact us within 14 days of purchase for a full refund.
-              </p>
+            
             </section>
 
             {/* 4. Disclaimer of Warranties */}

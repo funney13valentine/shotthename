@@ -137,12 +137,10 @@ export default function PrivacyPage() {
               <h3 class="text-xl font-serif text-[#1C2B27] font-bold mb-3 flex items-center gap-2.5">
                 <span>3. Purchase Information & Third-Party Processors</span>
               </h3>
-              <p class="text-sm text-[#1C2B27]/80 leading-relaxed mb-3">
-                When you purchase a license for ShotTheName, payments are handled securely by our payment partner, <strong>Gumroad</strong>.
-              </p>
+              
               <ul class="space-y-2 text-xs sm:text-sm text-[#1C2B27]/75 list-disc list-inside">
                 <li>We only collect your <strong>name and email address</strong> when you purchase via Gumroad to send your license key and software updates.</li>
-                <li>Your payment details (such as credit card numbers or billing addresses) are processed directly by Gumroad and are never accessible to us.</li>
+                
               </ul>
             </section>
 

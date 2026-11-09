@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export const metadata = {
   title: 'Terms of Service — ShotTheName',
-  description: 'ShotTheName Terms of Service: $5 one-time purchase, license terms, usage rights, and support policies for macOS.',
+  description: 'ShotTheName Terms of Service: , license terms, usage rights, and support policies for macOS.',
 };
 
 export default function TermsPage() {
@@ -31,7 +31,7 @@ export default function TermsPage() {
           {/* CTA Button Right */}
           <div class="flex items-center gap-3">
             <a href="https://funney13valentine.gumroad.com/l/shotthename" target="_blank" rel="noopener noreferrer" class="btn-dark text-xs sm:text-sm font-semibold px-4 sm:px-5 py-2 sm:py-2.5 rounded-full flex items-center gap-2 shadow-sm bg-[#1C2B27] text-[#F5F0E8] hover:bg-[#2A3F39] transition-all">
-              <span>Download $5</span>
+              <span>Download</span>
               <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
               </svg>
@@ -85,7 +85,7 @@ export default function TermsPage() {
                 <span>1. Software License & Pricing</span>
               </h3>
               <p class="text-sm text-[#1C2B27]/80 leading-relaxed mb-3">
-                ShotTheName is available as a <strong>$5 one-time purchase</strong>. There are no recurring subscriptions or hidden fees.
+                ShotTheName is available. There are no recurring subscriptions or hidden fees.
               </p>
               <ul class="space-y-2 text-xs sm:text-sm text-[#1C2B27]/75 list-disc list-inside">
                 <li>A single purchase grants you a personal license to install and use ShotTheName on up to <strong>3 personal Mac devices</strong> owned by you.</li>
@@ -153,7 +153,7 @@ export default function TermsPage() {
           </Link>
 
           <div class="text-xs font-mono text-[#F5F0E8]/50">
-            Built for macOS · $5 One-Time
+            Built for macOS ·
           </div>
 
           {/* Links */}

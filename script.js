@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
       id: 'stripe',
       rawName: 'Screenshot 2026-09-10 at 04.30.19 PM.png',
       cleanName: 'stripe-invoice-september-2026.png',
-      ocrText: 'Stripe Payment Receipt #INV-9821 $5.00 Completed'
+      ocrText: ''
     },
     {
       id: 'terminal',

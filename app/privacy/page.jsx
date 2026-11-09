@@ -31,7 +31,7 @@ export default function PrivacyPage() {
           {/* CTA Button Right */}
           <div class="flex items-center gap-3">
             <a href="https://funney13valentine.gumroad.com/l/shotthename" target="_blank" rel="noopener noreferrer" class="btn-dark text-xs sm:text-sm font-semibold px-4 sm:px-5 py-2 sm:py-2.5 rounded-full flex items-center gap-2 shadow-sm bg-[#1C2B27] text-[#F5F0E8] hover:bg-[#2A3F39] transition-all">
-              <span>Download $5</span>
+              <span>Download</span>
               <svg class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 14l-7 7m0 0l-7-7m7 7V3" />
               </svg>

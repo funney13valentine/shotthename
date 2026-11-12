@@ -1,11 +1,13 @@
+
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>Privacy Policy — ShotTheName</title>
-  <meta name="description" content="ShotTheName Privacy Policy: 100% local image processing on your Mac. No image collection, no tracking, no servers.">
-  
+  <meta name="description" content="ShotTheName Privacy Policy. Learn how screenshot processing, local data, website services and downloads are handled.">
+
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -36,49 +38,44 @@
     }
   </script>
 
-  <!-- Custom Stylesheet -->
   <link rel="stylesheet" href="styles.css">
-
-  <!-- Lucide Icons CDN -->
   <script src="https://unpkg.com/lucide@latest"></script>
 </head>
+
 <body class="bg-[#F5F0E8] text-[#1C2B27] antialiased selection:bg-[#1C2B27] selection:text-[#F5F0E8] relative overflow-x-hidden min-h-screen flex flex-col justify-between">
 
-  <!-- SECTION 1: FLOATING PILL NAVBAR -->
+  <!-- NAVBAR -->
   <header class="fixed top-5 inset-x-0 z-50 px-4 sm:px-6">
     <div class="max-w-4xl mx-auto nav-pill rounded-full px-4 sm:px-6 py-3 flex items-center justify-between transition-all duration-300">
-      
-      <!-- Logo Left -->
+
       <a href="index.html" class="flex items-center gap-2.5 group">
         <img src="assets/final_logo.png" alt="ShotTheName Logo" class="w-8 h-8 object-contain group-hover:scale-105 transition-transform">
         <span class="font-sans font-bold text-base text-[#1C2B27] tracking-tight">ShotTheName</span>
       </a>
 
-      <!-- Pill Nav Center Links -->
       <nav class="hidden md:flex items-center gap-1 bg-[#1C2B27]/5 p-1 rounded-full text-xs font-medium text-[#1C2B27]/70">
         <a href="index.html#hero" class="px-3.5 py-1.5 rounded-full hover:bg-white hover:text-[#1C2B27] transition-all">Overview</a>
         <a href="index.html#how-it-works" class="px-3.5 py-1.5 rounded-full hover:bg-white hover:text-[#1C2B27] transition-all">How It Works</a>
         <a href="index.html#features" class="px-3.5 py-1.5 rounded-full hover:bg-white hover:text-[#1C2B27] transition-all">Features</a>
-        <a href="index.html#pricing" class="px-3.5 py-1.5 rounded-full hover:bg-white hover:text-[#1C2B27] transition-all">Pricing</a>
+        <a href="index.html#installation" class="px-3.5 py-1.5 rounded-full hover:bg-white hover:text-[#1C2B27] transition-all">Installation</a>
       </nav>
 
-      <!-- CTA Button Right -->
       <div class="flex items-center gap-3">
-        <a href="https://funney13valentine.gumroad.com/l/shotthename" target="_blank" rel="noopener noreferrer" class="btn-dark text-xs sm:text-sm font-semibold px-4 sm:px-5 py-2 sm:py-2.5 rounded-full flex items-center gap-2 shadow-sm">
-          <span>Download</span>
-          <i data-lucide="arrow-down-right" class="w-3.5 h-3.5"></i>
+        <a href="https://github.com/funney13valentine/homebrew-tap" target="_blank" rel="noopener noreferrer" class="btn-dark text-xs sm:text-sm font-semibold px-4 sm:px-5 py-2 sm:py-2.5 rounded-full flex items-center gap-2 shadow-sm">
+          <span>Homebrew</span>
+          <i data-lucide="github" class="w-3.5 h-3.5"></i>
         </a>
       </div>
 
     </div>
   </header>
 
-  <!-- MAIN CONTENT CONTAINER -->
+  <!-- MAIN CONTENT -->
   <main class="relative z-10 pt-28 sm:pt-36 pb-20 flex-grow">
-    
+
     <div class="max-w-4xl mx-auto px-6 sm:px-8">
-      
-      <!-- Back Link & Header Badge -->
+
+      <!-- HEADER -->
       <div class="flex items-center justify-between mb-8">
         <a href="index.html" class="inline-flex items-center gap-2 text-xs font-mono text-[#1C2B27]/60 hover:text-[#1C2B27] transition-colors">
           <i data-lucide="arrow-left" class="w-4 h-4"></i>
@@ -91,115 +88,310 @@
         </div>
       </div>
 
-      <!-- Page Title -->
       <h1 class="text-4xl sm:text-6xl font-serif text-[#1C2B27] tracking-tight leading-tight mb-4">
         Privacy Policy
       </h1>
 
       <p class="text-lg text-[#1C2B27]/75 font-sans mb-8">
-        ShotTheName is built with total privacy by design. All image processing happens 100% locally on your Mac.
+        Your screenshots are personal. ShotTheName is designed to process them locally on your Mac without sending their contents to our servers.
       </p>
 
       <div class="text-xs font-mono text-[#1C2B27]/50 mb-12 pb-6 border-b border-[#1C2B27]/10 flex items-center gap-2">
         <i data-lucide="calendar" class="w-3.5 h-3.5"></i>
-        <span>Last updated: September 2026</span>
+        <span>Last updated: November 12, 2026</span>
       </div>
 
-      <!-- Highlights Banner -->
+      <!-- PRIVACY HIGHLIGHTS -->
       <div class="bg-[#1C2B27] text-[#F5F0E8] rounded-3xl p-6 sm:p-8 mb-12 shadow-xl border border-[#1C2B27]">
+
         <div class="flex items-center gap-3 mb-4 text-[#34D399]">
           <i data-lucide="shield-check" class="w-6 h-6"></i>
-          <h2 class="text-lg font-bold font-sans text-white">Our 100% Privacy Guarantee</h2>
+          <h2 class="text-lg font-bold font-sans text-white">Privacy by Design</h2>
         </div>
+
         <p class="text-sm text-[#F5F0E8]/80 leading-relaxed mb-6">
-          We believe your personal files and screenshots are private. ShotTheName processes everything locally using macOS native Vision frameworks and requires no internet connection to rename your files.
+          ShotTheName is built around local processing. Screenshot analysis, OCR and file renaming are performed on your Mac using Apple's native frameworks. We do not operate a server that receives your screenshots or extracted screenshot text.
         </p>
-        
+
         <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-4 border-t border-[#F5F0E8]/10 text-xs font-mono text-[#34D399]">
+
           <div class="flex items-center gap-2">
-            <i data-lucide="check" class="w-4 h-4"></i> 100% On-Device OCR
+            <i data-lucide="check" class="w-4 h-4"></i>
+            On-Device Processing
           </div>
+
           <div class="flex items-center gap-2">
-            <i data-lucide="check" class="w-4 h-4"></i> Zero Server Telemetry
+            <i data-lucide="check" class="w-4 h-4"></i>
+            No App Telemetry
           </div>
+
           <div class="flex items-center gap-2">
-            <i data-lucide="check" class="w-4 h-4"></i> No Tracking or Cookies
+            <i data-lucide="check" class="w-4 h-4"></i>
+            No Screenshot Uploads
           </div>
+
         </div>
       </div>
 
-      <!-- Policy Sections -->
+      <!-- POLICY SECTIONS -->
       <div class="space-y-8 font-sans">
 
-        <!-- 1. Company Information -->
+        <!-- 1. Developer Information -->
         <section class="bg-[#EFE8DD] rounded-2xl p-6 sm:p-8 border border-[#1C2B27]/10">
+
           <h3 class="text-xl font-serif text-[#1C2B27] font-bold mb-3 flex items-center gap-2.5">
-            <i data-lucide="building" class="w-5 h-5 text-[#1C2B27]/70"></i>
-            1. Company Information
+            <i data-lucide="user" class="w-5 h-5 text-[#1C2B27]/70"></i>
+            1. Developer Information
           </h3>
+
           <p class="text-sm text-[#1C2B27]/80 leading-relaxed">
-            ShotTheName is developed and maintained by <strong>Meet (Independent Developer)</strong>. As an independent mac utility creator, my priority is delivering useful tools that treat user privacy with absolute respect.
+            ShotTheName is developed and maintained by <strong>Meet, an independent developer</strong>. For privacy-related questions, requests or feedback, you can contact us using the email address provided at the end of this policy.
           </p>
+
         </section>
 
-        <!-- 2. Local Image Processing -->
+        <!-- 2. Local Processing -->
         <section class="bg-[#EFE8DD] rounded-2xl p-6 sm:p-8 border border-[#1C2B27]/10">
+
           <h3 class="text-xl font-serif text-[#1C2B27] font-bold mb-3 flex items-center gap-2.5">
             <i data-lucide="cpu" class="w-5 h-5 text-[#1C2B27]/70"></i>
-            2. Local On-Device Image Processing
+            2. Local On-Device Processing
           </h3>
+
           <p class="text-sm text-[#1C2B27]/80 leading-relaxed mb-3">
-            All screenshot analysis, OCR text recognition, and file renaming happen <strong>100% locally on your Mac</strong> using Apple's Vision framework and Neural Engine.
+            ShotTheName uses Apple's native Vision framework to analyze screenshots and recognize text directly on your Mac.
           </p>
+
           <ul class="space-y-2 text-xs sm:text-sm text-[#1C2B27]/75 list-disc list-inside">
-            <li>We do <strong>not</strong> collect, store, or transmit any of your screenshots or images.</li>
-            <li>We do <strong>not</strong> have servers that receive your image data or extracted text.</li>
-            <li>Your screenshot contents never leave your physical device.</li>
+
+            <li>Screenshot analysis and OCR are performed locally.</li>
+
+            <li>Screenshot contents are not uploaded to our servers.</li>
+
+            <li>Extracted screenshot text is not sent to us.</li>
+
+            <li>File renaming is performed locally on your device.</li>
+
+            <li>We do not maintain a cloud database of your screenshots or rename history.</li>
+
           </ul>
+
+          <p class="text-xs text-[#1C2B27]/60 mt-4 leading-relaxed">
+            These statements describe the application's screenshot-processing functionality. They do not mean that your Mac or the third-party services you use never communicate over the internet.
+          </p>
+
         </section>
 
-        <!-- 3. Purchases & Third-Party Payment Processing -->
-        <p class="text-sm text-[#1C2B27]/80 leading-relaxed">
-  ShotTheName is free to download. We do not collect any payment information.
-</p>
-
-        <!-- 4. Analytics, Tracking & Cookies -->
+        <!-- 3. Files and Permissions -->
         <section class="bg-[#EFE8DD] rounded-2xl p-6 sm:p-8 border border-[#1C2B27]/10">
+
+          <h3 class="text-xl font-serif text-[#1C2B27] font-bold mb-3 flex items-center gap-2.5">
+            <i data-lucide="folder-lock" class="w-5 h-5 text-[#1C2B27]/70"></i>
+            3. File Access and Permissions
+          </h3>
+
+          <p class="text-sm text-[#1C2B27]/80 leading-relaxed mb-3">
+            ShotTheName may request permission to access folders that you choose to monitor or organize.
+          </p>
+
+          <ul class="space-y-2 text-xs sm:text-sm text-[#1C2B27]/75 list-disc list-inside">
+
+            <li>Folder access is used to detect and rename screenshots.</li>
+
+            <li>File operations take place on your Mac.</li>
+
+            <li>You control the permissions granted through macOS.</li>
+
+            <li>We do not receive copies of files accessed by the application.</li>
+
+          </ul>
+
+        </section>
+
+        <!-- 4. Information Collection -->
+        <section class="bg-[#EFE8DD] rounded-2xl p-6 sm:p-8 border border-[#1C2B27]/10">
+
+          <h3 class="text-xl font-serif text-[#1C2B27] font-bold mb-3 flex items-center gap-2.5">
+            <i data-lucide="database" class="w-5 h-5 text-[#1C2B27]/70"></i>
+            4. Information Collection
+          </h3>
+
+          <p class="text-sm text-[#1C2B27]/80 leading-relaxed mb-3">
+            We do not intentionally collect personal information through the ShotTheName application.
+          </p>
+
+          <ul class="space-y-2 text-xs sm:text-sm text-[#1C2B27]/75 list-disc list-inside">
+
+            <li>No user account is required.</li>
+
+            <li>No registration is required.</li>
+
+            <li>We do not collect screenshots or extracted OCR content.</li>
+
+            <li>We do not operate an application analytics or telemetry service.</li>
+
+            <li>We do not maintain a user database.</li>
+
+          </ul>
+
+        </section>
+
+        <!-- 5. Website Privacy -->
+        <section class="bg-[#EFE8DD] rounded-2xl p-6 sm:p-8 border border-[#1C2B27]/10">
+
+          <h3 class="text-xl font-serif text-[#1C2B27] font-bold mb-3 flex items-center gap-2.5">
+            <i data-lucide="globe" class="w-5 h-5 text-[#1C2B27]/70"></i>
+            5. Website Privacy
+          </h3>
+
+          <p class="text-sm text-[#1C2B27]/80 leading-relaxed mb-3">
+            Our website, shotthename.xyz, may load resources from third-party services to display its content and functionality.
+          </p>
+
+          <p class="text-sm text-[#1C2B27]/80 leading-relaxed mb-3">
+            These resources currently include:
+          </p>
+
+          <ul class="space-y-2 text-xs sm:text-sm text-[#1C2B27]/75 list-disc list-inside">
+
+            <li><strong>Tailwind CSS CDN:</strong> Used to load website styling.</li>
+
+            <li><strong>Google Fonts:</strong> Used to load typography.</li>
+
+            <li><strong>unpkg:</strong> Used to load Lucide icons.</li>
+
+          </ul>
+
+          <p class="text-sm text-[#1C2B27]/80 leading-relaxed mt-4">
+            When your browser requests resources from these providers, they may receive technical information such as your IP address, browser information and request details.
+          </p>
+
+          <p class="text-sm text-[#1C2B27]/80 leading-relaxed mt-3">
+            These third-party providers operate under their own privacy policies. We do not control their independent data-handling practices.
+          </p>
+
+        </section>
+
+        <!-- 6. Homebrew and GitHub -->
+        <section class="bg-[#EFE8DD] rounded-2xl p-6 sm:p-8 border border-[#1C2B27]/10">
+
+          <h3 class="text-xl font-serif text-[#1C2B27] font-bold mb-3 flex items-center gap-2.5">
+            <i data-lucide="github" class="w-5 h-5 text-[#1C2B27]/70"></i>
+            6. Homebrew and GitHub Distribution
+          </h3>
+
+          <p class="text-sm text-[#1C2B27]/80 leading-relaxed mb-3">
+            ShotTheName is distributed through a public GitHub repository and a Homebrew tap.
+          </p>
+
+          <p class="text-sm text-[#1C2B27]/80 leading-relaxed mb-3">
+            When you install or update ShotTheName using Homebrew, your device communicates with third-party infrastructure, including GitHub, to retrieve installation files and related metadata.
+          </p>
+
+          <ul class="space-y-2 text-xs sm:text-sm text-[#1C2B27]/75 list-disc list-inside">
+
+            <li>GitHub hosts the application's release files and Homebrew tap.</li>
+
+            <li>Homebrew manages the installation process on your Mac.</li>
+
+            <li>These services may process technical connection information according to their own policies.</li>
+
+            <li>We do not receive your screenshot contents through the installation process.</li>
+
+          </ul>
+
+          <p class="text-sm text-[#1C2B27]/80 leading-relaxed mt-4">
+            For more information:
+          </p>
+
+          <div class="flex flex-col gap-2 text-sm mt-2">
+
+            <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement" target="_blank" rel="noopener noreferrer" class="text-[#1C2B27] underline hover:opacity-70">
+              GitHub Privacy Statement
+            </a>
+
+            <a href="https://brew.sh" target="_blank" rel="noopener noreferrer" class="text-[#1C2B27] underline hover:opacity-70">
+              Homebrew Official Website
+            </a>
+
+          </div>
+
+        </section>
+
+        <!-- 7. Cookies and Analytics -->
+        <section class="bg-[#EFE8DD] rounded-2xl p-6 sm:p-8 border border-[#1C2B27]/10">
+
           <h3 class="text-xl font-serif text-[#1C2B27] font-bold mb-3 flex items-center gap-2.5">
             <i data-lucide="eye-off" class="w-5 h-5 text-[#1C2B27]/70"></i>
-            4. No Analytics, Tracking, or Cookies
+            7. Analytics, Tracking and Cookies
           </h3>
+
           <p class="text-sm text-[#1C2B27]/80 leading-relaxed">
-            We use <strong>no analytics frameworks, no telemetry tracking, and no cookies</strong>. We do not track your usage inside the app or on this website. Your activity remains completely private to you.
+            We do not intentionally use advertising trackers, behavioral analytics or tracking cookies on our website. The ShotTheName application does not include an application analytics or telemetry service.
           </p>
+
+          <p class="text-sm text-[#1C2B27]/80 leading-relaxed mt-3">
+            However, third-party resources loaded by the website and the website hosting provider may process technical connection information as part of normal service operation.
+          </p>
+
         </section>
 
-        <!-- 5. Contact Us -->
+        <!-- 8. Payments -->
         <section class="bg-[#EFE8DD] rounded-2xl p-6 sm:p-8 border border-[#1C2B27]/10">
+
+          <h3 class="text-xl font-serif text-[#1C2B27] font-bold mb-3 flex items-center gap-2.5">
+            <i data-lucide="wallet" class="w-5 h-5 text-[#1C2B27]/70"></i>
+            8. Payments and Purchases
+          </h3>
+
+          <p class="text-sm text-[#1C2B27]/80 leading-relaxed">
+            ShotTheName is free to download and use. There are no subscriptions, paid licenses or in-app purchases. We do not collect payment information.
+          </p>
+
+        </section>
+
+        <!-- 9. Policy Updates -->
+        <section class="bg-[#EFE8DD] rounded-2xl p-6 sm:p-8 border border-[#1C2B27]/10">
+
+          <h3 class="text-xl font-serif text-[#1C2B27] font-bold mb-3 flex items-center gap-2.5">
+            <i data-lucide="file-text" class="w-5 h-5 text-[#1C2B27]/70"></i>
+            9. Changes to This Policy
+          </h3>
+
+          <p class="text-sm text-[#1C2B27]/80 leading-relaxed">
+            We may update this Privacy Policy as ShotTheName evolves or when our services and practices change. Any changes will be published on this page with an updated revision date.
+          </p>
+
+        </section>
+
+        <!-- 10. Contact -->
+        <section class="bg-[#EFE8DD] rounded-2xl p-6 sm:p-8 border border-[#1C2B27]/10">
+
           <h3 class="text-xl font-serif text-[#1C2B27] font-bold mb-3 flex items-center gap-2.5">
             <i data-lucide="mail" class="w-5 h-5 text-[#1C2B27]/70"></i>
-            5. Contact Us
+            10. Contact Us
           </h3>
+
           <p class="text-sm text-[#1C2B27]/80 leading-relaxed mb-4">
-            If you have any questions or feedback regarding this Privacy Policy, please feel free to contact us:
+            Have a question, concern or privacy-related request? Feel free to contact us.
           </p>
+
           <a href="mailto:mx13eet@gmail.com" class="btn-dark text-xs sm:text-sm font-semibold px-5 py-2.5 rounded-full inline-flex items-center gap-2 shadow-sm">
             <i data-lucide="mail" class="w-4 h-4"></i>
             <span>mx13eet@gmail.com</span>
           </a>
+
         </section>
 
       </div>
-
     </div>
-
   </main>
 
-  <!-- SECTION 7: FOOTER DARK (#1C2B27) -->
+  <!-- FOOTER -->
   <footer class="stacked-section bg-[#1C2B27] text-[#F5F0E8] py-16 relative z-[60]">
+
     <div class="max-w-6xl mx-auto px-6 sm:px-8 flex flex-col sm:flex-row items-center justify-between gap-6">
-      
-      <!-- Logo + Copyright -->
+
       <a href="index.html" class="flex items-center gap-2.5">
         <img src="assets/final_logo.png" alt="Logo" class="w-7 h-7 object-contain invert">
         <span class="text-sm font-bold text-[#F5F0E8]">ShotTheName</span>
@@ -210,7 +402,6 @@
         Built for macOS · Privacy First
       </div>
 
-      <!-- Links -->
       <div class="flex items-center gap-6 text-xs text-[#F5F0E8]/70">
         <a href="privacy.html" class="hover:text-white transition-colors text-white font-semibold">Privacy</a>
         <a href="terms.html" class="hover:text-white transition-colors">Terms</a>
@@ -220,9 +411,9 @@
     </div>
   </footer>
 
-  <!-- Script setup -->
   <script>
     lucide.createIcons();
   </script>
+
 </body>
 </html>

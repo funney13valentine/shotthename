@@ -170,3 +170,62 @@ html {
   box-shadow: 0 0 12px #34D399;
   animation: laser-scan 2.6s cubic-bezier(0.4, 0, 0.2, 1) infinite;
 }
+
+/* Terminal command selection */
+.terminal-prompt {
+  color: #94A3A0;
+  user-select: none;
+  -webkit-user-select: none;
+  pointer-events: none;
+  flex-shrink: 0;
+}
+
+.terminal-command {
+  color: #34D399;
+  font-family: 'JetBrains Mono', monospace;
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+/* Circular Homebrew action buttons */
+.homebrew-circle-btn {
+  width: 76px;
+  height: 76px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #E9E4DB;
+  color: #1C2B27;
+  border: 1px solid rgba(28, 43, 39, 0.12);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  box-shadow: 0 8px 20px rgba(28, 43, 39, 0.06);
+}
+
+.homebrew-circle-btn:hover {
+  background: #34D399;
+  color: #1C2B27;
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(28, 43, 39, 0.12);
+}
+
+.homebrew-circle-btn-dark {
+  background: #1C2B27;
+  color: #F5F0E8;
+  border-color: #1C2B27;
+}
+
+.homebrew-circle-btn-dark:hover {
+  background: #34D399;
+  color: #1C2B27;
+  border-color: #34D399;
+}
+
+@media (max-width: 640px) {
+  .homebrew-circle-btn {
+    width: 64px;
+    height: 64px;
+  }
+}
+
+

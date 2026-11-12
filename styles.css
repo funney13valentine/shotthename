@@ -173,7 +173,7 @@ html {
 
 /* Terminal command selection */
 .terminal-prompt {
-  color: #94A3A0;
+  color: #ffffff;
   user-select: none;
   -webkit-user-select: none;
   pointer-events: none;
@@ -181,7 +181,7 @@ html {
 }
 
 .terminal-command {
-  color: #34D399;
+  color: #ffffff;
   font-family: 'JetBrains Mono', monospace;
   user-select: text;
   -webkit-user-select: text;
@@ -229,3 +229,26 @@ html {
 }
 
 
+
+/* Force Homebrew terminal text visibility */
+
+#homebrew-commands .terminal-command {
+  display: inline-block !important;
+  color: #34D399 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: inherit;
+  font-weight: 500;
+  user-select: text;
+  -webkit-user-select: text;
+}
+
+#homebrew-commands .terminal-prompt {
+  display: inline-block !important;
+  color: #94A3A0 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  user-select: none;
+  -webkit-user-select: none;
+}
